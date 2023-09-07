@@ -19,13 +19,8 @@ Welcome to the repository for my theme Visual Studio Code theme and icons! This 
 2. **Install the Theme**:
    - Open Visual Studio Code.
    - Navigate to `Extensions` (Ctrl+Shift+X).
-   - Search for `My Custom Theme` and install it.
+   - Search for `Duck Themes` and install it.
    - Set the theme as your default theme by clicking the gear icon in the lower-right corner and selecting it from the list.
-
-3. **Install the Icons**:
-   - In Visual Studio Code, go to `Extensions` (Ctrl+Shift+X).
-   - Search for `My Custom Icons` and install it.
-   - Reload VS Code to apply the icon changes.
 
 4. **Enjoy Your Customized Workspace**: Your theme and icons are now applied! Customize further by tweaking the VS Code settings if needed.
 
