@@ -1,0 +1,47 @@
+{
+  "name": "duck-theme",
+  "displayName": "Duck Themes",
+  "description": "",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.81.0"
+  },
+  "publisher": "SrPatoS", 
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "duck-theme",
+    "jetbrains",
+    "icons",
+    "icon-theme",
+    "theme",
+    "intellij",
+    "webstorm",
+    "idea"
+  ],
+  "icon": "icon.png",
+  "scripts": {
+    "build": "vsce package"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SrPatoS/DuckThemes-VSCode.git"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Duck UI Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/node-dark.json"
+      }
+    ],
+    "iconThemes": [
+      {
+        "id": "duck-icons-dark",
+        "label": "Duck UI Icons Dark",
+        "path": "./themes/icons-dark.json"
+      }
+    ]
+  }
+}
